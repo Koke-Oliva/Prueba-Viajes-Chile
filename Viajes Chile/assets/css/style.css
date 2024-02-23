@@ -31,4 +31,9 @@ a {
   background-color: #f8f9fa; /* Cambiar al color deseado */
 }
 
+/*cambio de tamaño cards*/
+.card-img-top {
+  height: 200px; /* Cambiar al tamaño deseado */
+}
+
 
