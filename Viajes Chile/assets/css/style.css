@@ -1,0 +1,29 @@
+/* Efecto Navbar al desplazar */
+.fijo-arriba.desplazada {
+  background-color: #0dcaf0 !important;
+  transition: background-color 200ms linear;
+}
+
+/* Modelo de Caja y letra */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: white !important;
+}
+
+/* Footer */
+.pie {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .seccion-nosotros {
+      display: none;
+  }
+}
+

@@ -1,0 +1,26 @@
+/* Reglas generales */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  a {
+    color: white !important;
+  }
+  /* Ejecto Navbar Scroll */
+  .fixed-top.scrolled {
+    background-color: #0dcaf0 !important;
+    transition: background-color 200ms linear;
+  }
+  /* Footer */
+  footer {
+    /* border: 5px solid yellow; */
+    height: 80px;
+  }
+
+  @media (max-width: 768px) {
+    #quienesSomos {
+      display: none;
+    }
+  }
